@@ -1,0 +1,3 @@
+GLOBAL_LIST_EMPTY(blooper_list_ids)
+GLOBAL_LIST_EMPTY(blooper_list_names)
+GLOBAL_LIST_EMPTY(blooper_random_list)

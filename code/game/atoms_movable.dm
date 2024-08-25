@@ -500,6 +500,12 @@
 		if(NAMEOF(src, glide_size))
 			set_glide_size(var_value)
 			. = TRUE
+		//QUADRANT69 EDIT START - QUADRANT69_MODULE_BLOOPERS
+		if(NAMEOF(src, blooper))
+			if(isfile(var_value))
+				blooper = sound(var_value)
+			. = TRUE
+		//QUADRANT69 EDIT END
 
 	if(!isnull(.))
 		datum_flags |= DF_VAR_EDITED

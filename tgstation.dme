@@ -490,6 +490,7 @@
 #include "code\__DEFINES\~nova_defines\_HELPERS\lighting.dm"
 #include "code\__DEFINES\~nova_defines\_HELPERS\offset_index.dm"
 #include "code\__DEFINES\~nova_defines\traits\declarations.dm"
+#include "code\__DEFINES\~~quadrant69_defines\bloopers.dm"
 #include "code\__HELPERS\_auxtools_api.dm"
 #include "code\__HELPERS\_dreamluau.dm"
 #include "code\__HELPERS\_lists.dm"
@@ -609,6 +610,7 @@
 #include "code\__HELPERS\~nova_helpers\level_traits.dm"
 #include "code\__HELPERS\~nova_helpers\logging.dm"
 #include "code\__HELPERS\~nova_helpers\unsorted.dm"
+#include "code\__HELPERS\~~quadrant69_helpers\global_lists.dm"
 #include "code\_globalvars\_regexes.dm"
 #include "code\_globalvars\admin.dm"
 #include "code\_globalvars\arcade.dm"
@@ -8599,4 +8601,7 @@
 #include "modular_nova\modules\xenos_nova_redo\code\xeno_types\sentinel.dm"
 #include "modular_nova\modules\xenos_nova_redo\code\xeno_types\spitter.dm"
 #include "modular_nova\modules\xenos_nova_redo\code\xeno_types\warrior.dm"
+#include "modular_quadrant69\modules\bloopers\code\atoms_movable.dm"
+#include "modular_quadrant69\modules\bloopers\code\bloopers.dm"
+#include "modular_quadrant69\modules\bloopers\code\bloopers_list.dm"
 // END_INCLUDE

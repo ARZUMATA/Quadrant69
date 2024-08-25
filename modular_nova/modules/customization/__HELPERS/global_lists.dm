@@ -20,6 +20,14 @@
 		var/datum/laugh_type/L = new spath()
 		GLOB.laugh_types[L.name] = spath
 	sort_list(GLOB.laugh_types, GLOBAL_PROC_REF(cmp_typepaths_asc))
+	//QUADRANT69 EDIT ADDITION BEGIN - QUADRANT69_MODULE_BLOOPERS
+	for(var/sound_blooper_path in subtypesof(/datum/blooper))
+		var/datum/blooper/B = new sound_blooper_path()
+		GLOB.blooper_list_ids[B.id] = sound_blooper_path
+		GLOB.blooper_list_names[B.name] = B.id
+		if(B.allow_random)
+			GLOB.blooper_random_list[B.id] = sound_blooper_path
+	//QUADRANT69 EDIT ADDITION END
 
 /proc/make_default_mutant_bodypart_references()
 	// Build the global list for default species' mutant_bodyparts

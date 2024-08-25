@@ -553,6 +553,14 @@
 	new_profile.laugh_type = target.selected_laugh?.type || /datum/laugh_type/none
 	//NOVA EDIT ADDITION END
 
+	//QUADRANT69 EDIT ADDITION BEGIN - QUADRANT69_MODULE_BLOOPERS
+	new_profile.blooper_id = target.blooper_id
+	new_profile.blooper_pitch = target.blooper_pitch
+	new_profile.blooper_speed = target.blooper_speed
+	new_profile.blooper_pitch_range = target.blooper_pitch_range
+	new_profile.blooper_loudness = target.blooper_loudness
+	//QUADRANT69 EDIT ADDITION END
+
 	// Grab skillchips they have
 	new_profile.skillchips = target.clone_skillchip_list(TRUE)
 
