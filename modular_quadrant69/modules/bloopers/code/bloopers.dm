@@ -151,7 +151,7 @@ ADMIN_VERB(toggle_blooper, R_ADMIN, "Toggle Bloopers", "Toggle character blooper
 	savefile_key = "sound_blooper_volume"
 	savefile_identifier = PREFERENCE_PLAYER
 	minimum = 0
-	maximum = 60
+	maximum = 100
 	step = 5
 
 // Thank you SPLURT, FluffySTG and Citadel
